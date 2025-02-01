@@ -1,0 +1,13 @@
+[package]
+name = "snipe-tg-private-link-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.43.0", features = ["full"] }
+grammers-client = "0.7.0"
+grammers-session = "0.7.0"
+grammers-tl-types = { version = "0.7.0", features = ["tl-api"] }
+regex = "1.11.1"
+dotenv = "0.15.0"
+rpassword = "7.3.1"
