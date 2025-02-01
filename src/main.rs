@@ -5,9 +5,9 @@ use regex::Regex;
 use rpassword::read_password;
 use tokio::signal;
 
-use grammers_client::{Client, Config, SignInError, Update::*};
-use grammers_session::Session;
-use grammers_tl_types as tl;
+use grammers_client::{
+    grammers_tl_types as tl, session::Session, Client, Config, SignInError, Update::*,
+};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {

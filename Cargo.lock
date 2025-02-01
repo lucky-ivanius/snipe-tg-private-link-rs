@@ -777,8 +777,6 @@ version = "0.1.0"
 dependencies = [
  "dotenv",
  "grammers-client",
- "grammers-session",
- "grammers-tl-types",
  "regex",
  "rpassword",
  "tokio",
